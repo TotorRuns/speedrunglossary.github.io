@@ -1,0 +1,87 @@
+
+     @font-face {
+      font-family: 'WarioWareInc';
+      src: url(Source/wwi.otf) format('opentype');
+      /* Add more src properties for different font file formats if needed */
+    }
+    
+    body {
+      font-family: 'WarioWareInc';
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: rgb(255, 246, 196);
+    }
+  
+    
+    /* Additional styles */
+    a {
+      background-color: #fcffd4;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    a:hover {
+      background-color: #fff655;
+    }
+    div {
+      margin: 10px;
+      padding: 10px;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      border: none;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid black;
+      outline: 0.1em solid black;
+    }
+    
+    th:first-child,
+    td:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    
+    th:last-child,
+    td:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    
+    tr:first-child th,
+    tr:last-child td {
+      border-bottom: none;
+      border-bottom-width: 0.1em;
+    }
+  
+    .image {
+      width: 300px;
+      display: block;
+    }
+    .characterimage{
+      height: 300px;
+    }
+  
+    .nowrap {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    .cell {
+      width: 300px;
+    }
+  
+    .cell-content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    h1{
+        color: #ffe100;
+    }
+    
